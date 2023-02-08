@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <title>Teste com Dimensionamento de texto e alinhamento de imagens html</title>
+</head>
+
+<style>
+	.fontes {
+	margin: 10px 20px;
+	display: block;
+	}
+
+	.object {
+	margin: 40px 15px;
+	}
+
+	#conter {
+	margin: 10px 50px;
+	}
+
+	span {
+	font: 18px arial, sans-serif;
+	}
+</style>
+
+<body bgcolor='#6A5ACD' text="#00FA9A">
+	<h2>Testando dimensionamento de fontes via html</h2>
+
+	<font size=1 color='#000000'>D</font>
+	<font size=2 color='#70DB93'>I</font>
+	<font size=3 color='#FF00FF'>M</font>
+	<font size=4 color='#808000'>E</font>
+	<font size=5 color='#0000DD'>N</font>
+	<font size=6 color='#E6E8FA'>S</font>
+	<font size=7 color='#00FFFF'>I</font>
+	<font size=6 color='#00FFFF'>O</font>
+	<font size=5 color='#00FF00'>N</font>
+	<font size=4 color='#C0C0C0'>A</font>
+	<font size=3 color='#FFFF00'>N</font>
+	<font size=2 color='#23238E'>D</font>
+	<font size=1 color='#000080'>O</font>
+	<br>
+
+	<h2>Testando fontes via html</h2>
+
+	<font size=3 class='fontes' face='Verdana'>Texto exibido na fonte Verdana</font>
+	<font size=3 class='fontes' face='Courier New'>Texto exibido na fonte Courier New</font>
+	<font size=3 class='fontes' face='Times New Roman'>Texto exibido na fonte Times New Roman</font>
+	<font size=3 class='fontes' face='VictoranD'>Texto exibido na fonte VictorianD</font>
+	<font size=3 class='fontes' face='Monospace'>Texto exibido na fonte Monospace</font>
+	<font size=3 class='fontes' face='Arial'>Texto exibido na fonte Arial</font>
+
+	<h2>Testando imagens e posicionamento via html</h2>
+
+	<div id='conter'>
+		<div class='object'>
+			<img src='https://upload.wikimedia.org/wikipedia/commons/d/d4/Karl_Marx_001.jpg' alt='Karl_Marx' align='bottom' width='20%' height='20%' vspace='15px' hspace='15px'/>
+
+			<b>Aling >> bottom</b> <span>Karl Heinrich Marx FRSA (German: [maʁks]; 5 May 1818 – 14 March 1883) was a German philosopher, 
+			critic of political economy, economist, historian, sociologist, political theorist, journalist and socialist revolutionary. 
+			His best-known titles are the 1848 pamphlet The Communist Manifesto and the three-volume Das Kapital (1867–1883). 
+			Marx's political and philosophical thought had enormous influence on subsequent intellectual, economic, 
+			and political history. His name has been used as an adjective, a noun, and a school of social theory.</span><br>
+		</div>
+		<div class='object'>
+			<img src='https://upload.wikimedia.org/wikipedia/commons/c/c3/Joan_of_Arc_miniature_graded.jpg' alt='Joan_of_Arc' align='left' width='20%' height='20%' vspace='15px' hspace='15px'>
+
+			<b>Aling >> left</b> <span>Joana d'Arc (em francês: Jeanne d'Arc, IPA: [ʒan daʁk]; em italiano: Giovanna D'Arco; 
+			Domrémy-la-Pucelle, ca. 1412 – Ruão, 30 de maio de 1431) foi uma camponesa e santa francesa canonizada pela Igreja Católica, 
+			considerada uma heroína da França pelos seus feitos durante a Guerra dos Cem Anos. Nasceu filha de Jacques d'Arc e Isabelle Romée, 
+			numa família camponesa, em Domrémy no nordeste da França. Joana alegava receber visões divinas do arcanjo Miguel, de Santa Margarida 
+			e da Santa Catarina, que a instruíram a ajudar as forças de Carlos VII e livrar a França do domínio da Inglaterra.</span><br>
+		</div>
+		<div class='object'>
+			<img src='https://upload.wikimedia.org/wikipedia/commons/6/68/Carl_von_Linn%C3%A9.jpg' alt='Carl_von_Linneu' align='middle' width='20%' height='20%' vspace='15px' hspace='15px'>
+
+			<b>Aling >> middle</b> <span>Carlos Lineu,[1] geralmente conhecido como Lineu[2](em sueco Carl Nilsson Linnæus, 
+			e após nobilitação Carl von Linné, latinizado Carolus Linnaeus) (Råshult, Kronoberg, 23 de maio de 1707 — 
+			Uppsala, 10 de janeiro de 1778) foi um botânico, zoólogo e médico sueco, responsável por popularizar a nomenclatura 
+			binomial criada pelo naturalista Gaspard Bauhin e a classificação científica, sendo assim considerado o "pai da taxonomia moderna".</span><br>
+		</div>
+		<div class='object'>
+			<img src='https://upload.wikimedia.org/wikipedia/commons/b/b2/Maria_Quit%C3%A9ria_de_Jesus_Medeiros.jpg' alt='Maria_Quitéria_de_Jesus_Medeiros' align='right' width='20%' height='20%' vspace='15px' hspace='15px'>
+
+			<b>Aling >> right</b> <span>Maria Quitéria de Jesus[nota 1] (Feira de Santana, 1792[2] — Salvador, 21 de agosto de 1853[3]) 
+			foi uma combatente baiana da Guerra da Independência do Brasil. Desde 1996, é a patrona do Quadro Complementar de Oficiais do Exército Brasileiro[4] 
+			e, desde 2018, integra o Livro dos Heróis e Heroínas da Pátria.[5]
+			É reconhecida por ser a primeira mulher a assentar praça numa unidade militar das Forças Armadas Brasileiras, 
+			apesar de ter havido outras combatentes nas mesmas trincheiras.[12][13] Em 26 de julho de 2018, por meio da lei 
+			federal 13 697, teve seu nome incluído no Livro dos Heróis e Heroínas da Pátria, junto a Sóror Joana Angélica, 
+			Maria Felipa de Oliveira e João das Botas (João Francisco de Oliveira), figuras da Guerra de Independência do Brasil na Bahia.[5]</span><br>
+		</div>
+		<div class='object'>
+			<img src='https://upload.wikimedia.org/wikipedia/commons/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg' alt='Napoleão' align='top' width='20%' height='20%' vspace='15px' hspace='15px'>
+
+			<b>Aling >> top</b> <span>Napoleão[nota 1] (Ajaccio, 15 de agosto de 1769 — Longwood, 5 de maio de 1821) 
+			foi um estadista e líder militar francês que ganhou destaque durante a Revolução Francesa e liderou várias campanhas militares 
+			de sucesso durante as Guerras Revolucionárias Francesas. Foi imperador dos franceses como Napoleão I de 1804 a 1814 e brevemente 
+			em 1815 durante os Cem Dias. Napoleão dominou os assuntos europeus e globais por mais de uma década, enquanto liderava a França 
+			contra uma série de coalizões nas guerras napoleônicas. Ele venceu a maioria desses conflitos e a grande maioria de suas batalhas, 
+			construindo um grande império que governava grande parte da Europa continental antes de seu colapso final em 1815.</span><br>
+		</div>
+	</div>
+</body>
+
+</html>
