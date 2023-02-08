@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Formulário</title>
+
+    <script src="script.js"></script>
+</head>
+<body style="background-color:#97e7b2">
+    <form  align="center" method="post" onsubmit="return testeCampo()">
+        <h3>Preencha o formulario</h3>
+        
+        <input type="text" class="nome" placeholder="Nome">
+        <br>
+        <input type="text" class="nome" placeholder="Sobrenome">
+        <br>
+        <input type="text" class="cpf" placeholder="CPF">
+        <br>
+        <input type="radio" name="Curso" value="Automação">Automação
+        <input type="radio" name="Curso" value="Edificações">Edificações
+        <input type="radio" name="Curso" value="Eletrônica">Eletrônica
+        <input type="radio" name="Curso" value="Eletrotécnica">Eletrotécnica
+        <input type="radio" name="Curso" value="Geologia">Geologia
+        <input type="radio" name="Curso" value="Mecânica">Mecânica
+        <input type="radio" name="Curso" value="Química">Química
+        <input type="radio" name="Curso" value="Refrigeração">Refrigeração
+        <br>
+        <span>Ocupação:</span>
+        <select name="Ocupação">
+            <option value="Autonômo">Autonômo</option>
+            <option value="Aposentado">Aposentado</option>
+            <option value="Desempregado">Desempregado</option>
+            <option value="Empresário">Empresário</option>
+            <option value="Funcionário Privado">Funcionário Privado</option>
+            <option value="Funcionário Público">Funcionário Público</option>
+            <option value="Militar">Militar</option>
+            <option value="Pensionista">Pensionista</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
