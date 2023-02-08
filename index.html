@@ -67,9 +67,7 @@
 <body>
     <div class="conter">
         <div class="titulo">Links para os Websites de treino
-            <a href="http://cledsonb.github.io/TesteHMTL/" target="_blank" rel="noopener noreferrer">
-            <img src="share.png" alt="">
-            </a>
+            <img src="share.png" alt="Copiar Link da Pagina" onclick="copiarTexto()">
         </div>
         <ul>
             <a href="./AlinhamentoDeImagens/index.html"><li>Alinhamento de Imagens</li></a>
@@ -79,4 +77,11 @@
         </ul>
     </div>
 </body>
+<script>
+  function copiarTexto() {
+    let texto = "https://cledsonb.github.io/TesteHTML5/";
+    navigator.clipboard.writeText(texto);
+    alert("Link copiado para a sua área de transferência")
+  }
+</script>
 </html>
