@@ -1,5 +1,9 @@
-# TesteHTML5
+# Testes com HTML5
 
-Clique aqui : [Demostração](https://cledsonb.github.io/TesteHTML5/)
+## Demostração
 
-conjunto de paginas com html e css simples, onde em cada uma eu treino tags, atributos, para estar sempre praticando.
+### [Clique aqui](https://cledsonb.github.io/TesteHTML5/)
+
+## Obejetivo
+
+Conjunto de paginas com html e css simples, onde em cada uma eu treino tags, atributos, para estar sempre praticando.
